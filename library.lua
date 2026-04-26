@@ -5,11 +5,6 @@ local ui_options = {
 	can_resize = true,
 }
 
-local existingImgui = game:GetService("CoreGui"):FindFirstChild("imgui")
-if existingImgui then
-    existingImgui:Destroy()
-end
-
 local imgui = Instance.new("ScreenGui")
 local prefabs = Instance.new("Frame")
 local label = Instance.new("TextLabel")
